@@ -1,0 +1,79 @@
+# Arquivo .gitignore para um projeto C++ com CMake
+# Este arquivo instrui o Git a ignorar arquivos e diretórios específicos.
+
+# Diretórios de Build e Saída de Compilação
+# -------------------------------------------
+# A pasta 'build' é o local padrão para a saída do CMake.
+build/
+[Bb]uild/
+
+# Saídas de compiladores comuns (GCC, Clang, MSVC)
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+*.app
+*.ilk
+*.pdb
+*.tlog
+*.pch
+*.gch
+*.manifest
+
+# Arquivos de Configuração de IDE e Editores
+# -------------------------------------------
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+
+# CLion
+.idea/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Arquivos temporários e de backup de editores
+*~
+*.swp
+*.swo
+*.bak
+
+# Arquivos específicos do projeto
+# ---------------------------------
+# Ignora o conteúdo do diretório de ROMs.
+# ROMs de jogos são geralmente grandes e protegidas por direitos autorais.
+# Crie um arquivo vazio chamado '.gitkeep' dentro da pasta 'roms'
+# se você quiser que o diretório vazio seja incluído no repositório.
+roms/*
+!roms/.gitkeep
+
+# Arquivos de Sistema Operacional
+# ---------------------------------
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.idea

@@ -1,6 +1,6 @@
 
 ---
-## 🎮 KAZE — Emulador de Game Boy Advance em C++
+## 🎮 CCK — Emulador de Game Boy Advance em C++
 Um projeto ambicioso e técnico que busca recriar, com fidelidade e paixão, o funcionamento interno do lendário Game Boy Advance. Construído em C++ moderno, este emulador é uma ode à engenharia reversa, ao amor por jogos clássicos e ao poder de abstração do software.
 
 “Não estamos apenas rodando ROMs. Estamos traduzindo memórias em código.”
@@ -92,7 +92,7 @@ pacman -S --needed git base-devel \
 ### Passo 1: Clonar o Projeto
 
 ```bash
-git clone --recursive [https://github.com/seu-usuario/kaze-emulator.git](https://github.com/Caze-netto/CaKaCa)
+git clone --recursive [https://github.com/Caze-netto/CCK.git
 cd CCK
 ```
 

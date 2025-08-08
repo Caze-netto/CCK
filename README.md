@@ -92,7 +92,7 @@ pacman -S --needed git base-devel \
 ### Passo 1: Clonar o Projeto
 
 ```bash
-git clone --recursive [https://github.com/Caze-netto/CCK.git
+git clone --recursive [https://github.com/Caze-netto/CCK.git](https://github.com/Caze-netto/CCK.git)
 cd CCK
 ```
 
